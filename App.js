@@ -22,9 +22,9 @@ import AddTodo from './components/addtodo'
 export default function app(){
 
   const [todos, setTodos] = useState([
-    { text: 'buy coffee', key: '1' },
-    { text: 'create an app', key: '2' },
-    { text: 'play on the switch', key: '3' }
+    { text: 'Wake up', key: '1' },
+    { text: 'Read the newspaper', key: '2' },
+    { text: 'Check in at work', key: '3' }
   ]);
 
   const pressHandler = (key) => {
